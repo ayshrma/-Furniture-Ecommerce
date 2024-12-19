@@ -1,0 +1,78 @@
+.footer-main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.university{
+    width: 300px;
+    /* background-color: antiquewhite;/ */
+    /* text-align: center; */
+    margin-left: 120px;
+    /* margin-top: 20px; */
+}
+
+.footer-link{
+    opacity: 0.5;
+}
+
+.links{
+    text-decoration: none;
+    
+}
+
+.inputbutton{
+    margin-top: 86px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    
+}
+
+#input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 33px;
+
+}
+
+#subscribe-button{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 32px;
+}
+
+.help-links{
+    text-decoration: none;
+    margin-top: 5px;;
+}
+
+a:link, a:visited {
+    margin-top: 15px;
+    /* background-color: #f44336; */
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+  }
+
+  #fullfooter{
+    margin-top: 20px;
+  }
+
+  .universitypera{
+    margin-top: 63px;
+  }
+
+  .hr{
+    width: 90%;
+  }
+
+  .reverved{
+   margin-left: 60px;
+    padding-top: 20px;
+  }

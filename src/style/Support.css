@@ -1,0 +1,34 @@
+.main{
+    /* padding: 18px; */
+    /* text-align: center; */
+    /* padding-bottom: 14px; */
+    height: 6pc;
+    padding: 4pc;
+    background-color:bisque;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inline-example{
+    margin-left: -4px;
+}
+
+
+  .trophy {
+    font-size: 2rem; /* Adjust size of your icon */
+    margin-left: 49px;
+    margin-bottom: 10px; /* Add some space below the icon */
+   
+  }
+  
+   .High {
+    font-size: 1.5rem; /* Customize the size of the heading */
+    margin: 0; /* Remove margin from <h2> */
+    margin-left: px;
+  } 
+  
+  p {
+    margin: 0; /* Remove margin from <p> */
+  }
+  

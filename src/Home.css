@@ -1,0 +1,101 @@
+.first_image{
+    height: 716px;
+    width:100%;
+    margin-top: -60px;
+    /* size: 30%; */
+    
+}
+.block{
+    background-color: rgb(232, 223, 207);
+    width: 400px;
+    height: 100x;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 260px;
+}
+.buynow{
+    text-decoration: none;
+    margin-left: 20px;
+    background-color:  rgb(187, 110, 9);
+    size: 40px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.heading{
+    color: rgb(187, 110, 9);
+}
+.text{
+    margin-bottom: 30px;
+}
+.browse{
+    text-align: center;
+}
+.browserimage{
+    display: flex;
+    justify-content: space-around;
+}
+.image_title
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -100px;
+    background-color: #F4F5F7;
+
+}
+.image_discription{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -100px;
+    background-color: #F4F5F7;
+}
+
+.show_more{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 50%;
+    /* background-color:  rgb(187, 110, 9); */
+    color: rgb(187, 110, 9);
+    border: 1px solid red;
+    width: 100px;
+    /* size: 40px; */
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.a{
+    position: relative;
+}
+
+
+.slidediv{
+    display: flex;
+    height: 460px;
+    background-color: #FCF8F3;
+
+}
+
+.div50{
+    height: 144;
+    background-color: #FCF8F3;
+    padding-left: 10pc;
+    padding-top: 10pc;
+}
+#explore{
+    color: #FCF8F3;
+}
+
+.shapetxt{
+    text-align: center;
+}
+.furniofurniture{
+    margin-top: -20px;
+}

@@ -1,0 +1,253 @@
+.product-display {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .product-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .product-images .main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .thumbnail-images {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .thumbnail-images img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .thumbnail-images img:hover {
+    border-color: #000;
+  }
+  
+  .product-details {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .product-details h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    color: #e63946;
+    font-weight: bold;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .options {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .sizes, .colors {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .size-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .size-button:hover {
+    background: #eaeaea;
+  }
+  
+  .color-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .color-button.purple {
+    background: #a29bfe;
+  }
+  
+  .color-button.black {
+    background: #000;
+  }
+  
+  .color-button.gold {
+    background: #f4c542;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .quantity-control button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .quantity-control span {
+    font-size: 1.2rem;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .add-to-cart, .compare {
+    padding: 10px 20px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .add-to-cart:hover, .compare:hover {
+    background: #444;
+  }
+  
+  .product-meta p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .social-share {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .social-share a {
+    color: #000;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  
+  .social-share a:hover {
+    color: #0077b5; /* LinkedIn Blue for effect */
+  }
+
+  
+  .three{
+    /* background-color: navajowhite; */
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  .discriptionHeading{
+    margin-top: -16px;
+  }
+
+  .discFirst{
+    /* text-align: center; */
+    margin-left: 16%;
+        /* background-color: navajowhite  ; */
+      width: 70%;
+      color: #555;
+  }
+
+  .discSecond{
+    margin-top: 16px;
+    margin-left: 16%;
+    width: 70%;
+    color: #555
+
+    /* background-color: navajowhite; */
+
+  }
+
+.showMoreButton{
+  margin-top: 4%;
+  margin-left: 50%;
+  height: 2pc;
+  width: 9.5%;
+  background-color: #fff;
+  color: #f4c542;
+  border-color: #f4c542;
+  /* border: 2px yellow; */
+}
+
+  .sofaImage{
+    width: 80%;
+    height: 90%;
+    margin-left: 4%;
+    background-color: wheat;
+    /* margin-top: -8%; */
+  }
+
+  .imageMain{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+  }
+
+  .Product-list-carts
+  {
+      height: 60%;
+  }
+
+  
+
+  .relatedProductHeading{
+    text-align: center;
+  }
+
+  .browseimage{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+  .imageMain{
+    /* background-color: #a29bfe; */
+  }
+
+  .discrImage{
+    /* background: orange; */
+  }
+
+  .and{
+    /* background:  gray;  */
+  }
+

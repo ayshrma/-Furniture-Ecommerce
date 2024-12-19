@@ -1,0 +1,50 @@
+.cartMain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartTotal{
+    margin-top: 6pc;
+    margin-right: 8pc;
+    background-color:bisque;
+    height: 24pc;
+    width:  25pc;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 4pc;
+}
+input{
+    margin-top: 2pc;
+    /* text-decoration: none; */
+    border: none;
+}
+.headContent{
+    background-color: bisque;
+    margin-bottom: 8px;
+}
+
+.checkoutButton{
+    margin-top: 2pc;
+    border-radius: 8px;
+    height: 2pc;
+    width: 7pc;
+}
+
+.totalAmount{
+    font-size: larger;
+    color: rgb(224, 171, 101);
+    margin-left: 9px ;
+}
+.tableofProduct{
+    margin-left: 6%;
+    margin-top: 5%;
+}
+td{
+    margin-top: 4px;
+}
+
+
+
+th,td {
+    padding: 0 19px;
+  }

@@ -1,0 +1,10 @@
+
+.contain{
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstImage{
+    width: 15%;
+    height: auto;
+}

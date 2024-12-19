@@ -1,0 +1,43 @@
+.bannerMain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainDiv{
+    /* background-color: aquamarine; */
+    width: 40%;
+}
+
+.productDisc{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sofaImage{
+    width: 50%;
+}
+.buttonCancel{
+    border: none;
+    background: none;
+    margin-left: 5px;
+}
+
+.carticon{
+    height: 60%;
+    margin-top: 1pc;
+    width: 2pc;
+}
+
+.cancelButton{
+    width: 100%;
+    margin-right: 10%;
+    margin-top:  8%;
+    background-color: rgb(165, 157, 157);
+    height: 4%;
+    border-radius: 50%;
+}
+
+.price{
+    font-size: small;
+    margin-right: 20%;
+}
