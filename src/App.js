@@ -38,57 +38,57 @@
 //   );
 // }
 
-// export default App;
-// import React from 'react';
-// import Navbar from './Navbar';
-// import Cart_details from './Cart_details';
-// import ProductList from './Product_list';
-// import Home from './Home';
-// import ShopImage from './Shop_image';
-// import Support from './components/Support';
-// import ProductDisplay from './components/ProductDisplay';
-// import Blog from './Blog';
-// import Cart from './Cart';
-// import Contact from './Contact';
-// import ProductComparison from './ProductComparision';
-
-// export default function App() {
-//   return (
-//     <div>
-//     <Navbar />
-//       {/* <Cart_details /> */}
-//       {/* <ProductList /> */}
-//       {/* <Home /> */}
-//       {/* <ShopImage /> */}
-//       {/* <Support /> */}
-//       {/* <Blog /> */}
-//       {/* <Cart /> */}
-//       {/* <Contact /> */}
-//       {/* <ProductDisplay /> */}
-//       {/* <ProductComparison /> */}
-//     </div>
-//   );
-// }
-
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Navbar';
+import Cart_details from './Cart_details';
+import ProductList from './Product_list';
 import Home from './Home';
-import Shop from './Product_list';
-import About from './About';
-import Contact from './Blog';
+import ShopImage from './Shop_image';
+import Support from './components/Support';
+import ProductDisplay from './components/ProductDisplay';
+import Blog from './Blog';
+import Cart from './Cart';
+import Contact from './Contact';
+import ProductComparison from './ProductComparision';
 
 export default function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Router>
+    <div>
+    <Navbar />
+      {/* <Cart_details /> */}
+      {/* <ProductList /> */}
+      {/* <Home /> */}
+      {/* <ShopImage /> */}
+      {/* <Support /> */}
+      {/* <Blog /> */}
+      {/* <Cart /> */}
+      {/* <Contact /> */}
+      {/* <ProductDisplay /> */}
+      {/* <ProductComparison /> */}
+    </div>
   );
 }
+
+
+// import React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Navbar from './Navbar';
+// import Home from './Home';
+// import Shop from './Product_list';
+// import About from './About';
+// import Contact from './Blog';
+
+// export default function App() {
+//   return (
+//     <Router>
+//       <Navbar />
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/shop" element={<Shop />} />
+//         <Route path="/about" element={<About />} />
+//         <Route path="/contact" element={<Contact />} />
+//       </Routes>
+//     </Router>
+//   );
+// }
