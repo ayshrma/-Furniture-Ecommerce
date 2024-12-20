@@ -13,7 +13,7 @@
 // import { ThemeProvider } from "styled-components"
 // import Navbar from "./Navbar";
 // import Footer from "./Footer";
-// function App() {
+// export default function App() {
 //   return (
 //     <>
 //     <Navbar/>
@@ -55,10 +55,10 @@ import ProductComparison from './ProductComparision';
 export default function App() {
   return (
     <div>
-    <Navbar />
+    {/* <Navbar /> */}
       {/* <Cart_details /> */}
       {/* <ProductList /> */}
-      {/* <Home /> */}
+      <Home />
       {/* <ShopImage /> */}
       {/* <Support /> */}
       {/* <Blog /> */}
@@ -69,26 +69,3 @@ export default function App() {
     </div>
   );
 }
-
-
-// import React from 'react';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import Navbar from './Navbar';
-// import Home from './Home';
-// import Shop from './Product_list';
-// import About from './About';
-// import Contact from './Blog';
-
-// export default function App() {
-//   return (
-//     <Router>
-//       <Navbar />
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/shop" element={<Shop />} />
-//         <Route path="/about" element={<About />} />
-//         <Route path="/contact" element={<Contact />} />
-//       </Routes>
-//     </Router>
-//   );
-// }
